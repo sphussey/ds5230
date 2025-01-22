@@ -1,0 +1,33 @@
+Results Summary:
+
+=== Run information ===
+
+Scheme:       weka.associations.FPGrowth -P 2 -I -1 -N 2 -T 0 -C 0.99 -D 0.05 -U 1.0 -M 0.05
+Relation:     kosarak
+Instances:    990002
+Attributes:   41270
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
+FPGrowth found 2 rules (displaying top 2)
+
+1. [11=1, 218=1, 148=1]: 50098 ==> [6=1]: 49866   <conf:(1)> lift:(1.64) lev:(0.02) conv:(84.4) 
+2. [11=1, 148=1]: 55759 ==> [6=1]: 55230   <conf:(0.99)> lift:(1.63) lev:(0.02) conv:(41.3) 
+
+
+RUN LOGS: 1-2 seconds
+23:15:45: Started weka.associations.FPGrowth
+23:15:45: Command: weka.associations.FPGrowth -P 2 -I -1 -N 2 -T 0 -C 0.99 -D 0.05 -U 1.0 -M 0.05
+23:15:46: Finished weka.associations.FPGrowth
+23:15:58: Started weka.associations.FPGrowth
+23:15:58: Command: weka.associations.FPGrowth -P 2 -I -1 -N 2 -T 0 -C 0.99 -D 0.05 -U 1.0 -M 0.05
+23:16:00: Finished weka.associations.FPGrowth
+23:16:01: Started weka.associations.FPGrowth
+23:16:01: Command: weka.associations.FPGrowth -P 2 -I -1 -N 2 -T 0 -C 0.99 -D 0.05 -U 1.0 -M 0.05
+23:16:02: Finished weka.associations.FPGrowth
+23:16:03: Started weka.associations.FPGrowth
+23:16:03: Command: weka.associations.FPGrowth -P 2 -I -1 -N 2 -T 0 -C 0.99 -D 0.05 -U 1.0 -M 0.05
+23:16:05: Finished weka.associations.FPGrowth
+23:16:05: Started weka.associations.FPGrowth
+23:16:05: Command: weka.associations.FPGrowth -P 2 -I -1 -N 2 -T 0 -C 0.99 -D 0.05 -U 1.0 -M 0.05
+23:16:07: Finished weka.associations.FPGrowth
